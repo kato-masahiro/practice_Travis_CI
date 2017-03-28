@@ -1,0 +1,12 @@
+# 言語
+language: python
+
+# 事前に何かインストールが必要なら書いておく
+# befor_install: 
+
+# テスト結果の通知について
+notifications:
+    emails:
+        - katomasahiro10@gmail.com
+    on_success: always #default: change
+    on_failure: always
