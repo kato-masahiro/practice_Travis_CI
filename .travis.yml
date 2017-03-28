@@ -8,5 +8,3 @@ language: python
 notifications:
     emails:
         - katomasahiro10@gmail.com
-    on_success: always #default: change
-    on_failure: always
