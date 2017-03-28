@@ -1,4 +1,3 @@
 language: python
-
-script:
-    - sh ./test.sh
+script: #テストの内容
+  - sh -e ./test.sh
