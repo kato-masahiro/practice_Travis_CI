@@ -1,5 +1,5 @@
-#!/bin/bash
+#!/bin/sh
 
-OS="$(uname)"
-
-bash python test.py
+python target.py > result
+diff result ref10
+echo $?
