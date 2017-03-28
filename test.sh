@@ -1,5 +1,6 @@
 #!/bin/sh
 
 python target.py > result
-diff result ref10
+diff result ref
 echo $?
+echo OK
