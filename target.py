@@ -6,5 +6,5 @@
 1から10まで標準出力する
 """
 
-for i in range(10):
+for i in range(9):
     print i
